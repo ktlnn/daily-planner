@@ -7,12 +7,8 @@
 .lead{
     text-align: center;
 }
-/* .card-body {
-    height: 10px;
-    text-align: center;
-    margin: 0px;
-} */
-.time {
+
+#time {
     text-align:center;
     font-weight: bold;
 }
@@ -20,4 +16,18 @@
     margin: 0px;
     
 }
+.past {
+    background-color: #d3d3d3;
+    color: white;
+  }
+  
+  .present {
+    background-color: #ff6961;
+    color: white;
+  }
+  
+  .future {
+    background-color: #77dd77;
+    color: white;
+  }
 
