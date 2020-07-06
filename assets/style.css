@@ -1,0 +1,23 @@
+.jumbotron {
+    background-color: white;
+}
+.display-3{
+    text-align: center;
+}
+.lead{
+    text-align: center;
+}
+/* .card-body {
+    height: 10px;
+    text-align: center;
+    margin: 0px;
+} */
+.time {
+    text-align:center;
+    font-weight: bold;
+}
+.form-group {
+    margin: 0px;
+    
+}
+
