@@ -2,7 +2,7 @@ $(document).ready(function () {
     console.log(moment());
     // keeps track of the current date (which is taken from moment.js library)
     var currentDate = moment().format("L");
-    var currentHour = moment().format("LT");
+    
     // used jquery selector to display the current date, which is the value of the currentDate variable
     $("#currentDay").text(currentDate);
 
@@ -36,6 +36,21 @@ $(document).ready(function () {
     // calls the function
     displayPlanner();
 
+    var background = function() {
+        
+        var currentHour = moment().format("H");
+        console.log(currentHour);
+        var backgroundColor = $(".col-8");
+        console.log(backgroundColor);
+        if (hour > currentHour){
+           backgroundColor.addClass("past"); 
+        } else if (hour < currentHour){
+            backgroundColor.addClass("future");
+        } else {
+            backgroundColor.addClass("present");
+        }
+    }
+    background();
 
 
 });
