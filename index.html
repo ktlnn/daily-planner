@@ -4,11 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Planner</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <title>Work Day Planner</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment-with-locales.min.js"></script>
+    <script src="assets/javascript/main.js" defer></script>
     <link rel="stylesheet" href="assets/style.css" />
 
 
@@ -24,162 +36,138 @@
     <hr>
     <div class="container">
         <!-- Timeblocks go here -->
-        <div class="row">
+        <div id="time-9" class="row">
             <!-- display time column -->
-            <div class="col-2">
-                <p class="time">9 AM</p>
-            </div>
+
+            <p class="time col-2">9 AM</p>
+
             <!-- form input -->
-            <div class="col-8">
-                <div class="form-group">
-                    <input type="text" class="form-control" id="formGroupExampleInput">
-                </div>
-            </div>
+            <textarea class="col-8">
+
+            </textarea>
             <!-- save button -->
-            <div class="col-2">
-                <button type="submit" class="btn btn-primary mb-2">Save</button>
-            </div>
+
+            <button class="btn btn-primary mb-2 col-2 save-button">Save</button>
+
         </div>
-        <hr>
-        <div class="row">
+        <div id="time-10" class="row">
             <!-- display time column -->
-            <div class="col-2">
-                <p class="time">10 AM</p>
-            </div>
+
+            <p class="time col-2">10 AM</p>
+
             <!-- form input -->
-            <div class="col-8">
-                <div class="form-group">
-                    <input type="text" class="form-control" id="formGroupExampleInput">
-                </div>
-            </div>
+            <textarea class="col-8">
+
+            </textarea>
             <!-- save button -->
-            <div class="col-2">
-                <button type="submit" class="btn btn-primary mb-2">Save</button>
-            </div>
+
+            <button class="btn btn-primary mb-2 col-2 save-button">Save</button>
+
         </div>
-        <hr>
-        <div class="row">
+        <div id="time-11" class="row">
             <!-- display time column -->
-            <div class="col-2">
-                <p class="time">11 AM</p>
-            </div>
+
+            <p class="time col-2">11 AM</p>
+
             <!-- form input -->
-            <div class="col-8">
-                <div class="form-group">
-                    <input type="text" class="form-control" id="formGroupExampleInput">
-                </div>
-            </div>
+            <textarea class="col-8">
+
+            </textarea>
             <!-- save button -->
-            <div class="col-2">
-                <button type="submit" class="btn btn-primary mb-2">Save</button>
-            </div>
+
+            <button class="btn btn-primary mb-2 col-2 save-button">Save</button>
+
         </div>
-        <hr>
-        <div class="row">
+        <div id="time-12" class="row">
             <!-- display time column -->
-            <div class="col-2">
-                <p class="time">12 PM</p>
-            </div>
+
+            <p class="time col-2">12 PM</p>
+
             <!-- form input -->
-            <div class="col-8">
-                <div class="form-group">
-                    <input type="text" class="form-control" id="formGroupExampleInput">
-                </div>
-            </div>
+            <textarea class="col-8">
+
+            </textarea>
             <!-- save button -->
-            <div class="col-2">
-                <button type="submit" class="btn btn-primary mb-2">Save</button>
-            </div>
+
+            <button class="btn btn-primary mb-2 col-2 save-button">Save</button>
+
         </div>
-        <hr>
-        <div class="row">
+        <div id="time-13" class="row">
             <!-- display time column -->
-            <div class="col-2">
-                <p class="time">1 PM</p>
-            </div>
+
+            <p class="time col-2">1 PM</p>
+
             <!-- form input -->
-            <div class="col-8">
-                <div class="form-group">
-                    <input type="text" class="form-control" id="formGroupExampleInput">
-                </div>
-            </div>
+            <textarea class="col-8">
+
+            </textarea>
             <!-- save button -->
-            <div class="col-2">
-                <button type="submit" class="btn btn-primary mb-2">Save</button>
-            </div>
+
+            <button class="btn btn-primary mb-2 col-2 save-button">Save</button>
+
         </div>
-        <hr>
-        <div class="row">
+        <div id="time-14" class="row">
             <!-- display time column -->
-            <div class="col-2">
-                <p class="time">2 PM</p>
-            </div>
+
+            <p class="time col-2">2 PM</p>
+
             <!-- form input -->
-            <div class="col-8">
-                <div class="form-group">
-                    <input type="text" class="form-control" id="formGroupExampleInput">
-                </div>
-            </div>
+            <textarea class="col-8">
+
+            </textarea>
             <!-- save button -->
-            <div class="col-2">
-                <button type="submit" class="btn btn-primary mb-2">Save</button>
-            </div>
+
+            <button class="btn btn-primary mb-2 col-2 save-button">Save</button>
+
         </div>
-        <hr>
-        <div class="row">
+        <div id="time-15" class="row">
             <!-- display time column -->
-            <div class="col-2">
-                <p id="time">3 PM</p>
-            </div>
+
+            <p class="time col-2">3 PM</p>
+
             <!-- form input -->
-            <div class="col-8">
-                <div class="form-group">
-                    <input type="text" class="form-control" id="formGroupExampleInput">
-                </div>
-            </div>
+            <textarea class="col-8">
+
+            </textarea>
             <!-- save button -->
-            <div class="col-2">
-                <button type="submit" class="btn btn-primary mb-2">Save</button>
-            </div>
+
+            <button class="btn btn-primary mb-2 col-2 save-button">Save</button>
+
         </div>
-        <hr>
-        <div class="row">
+        <div id="time-16" class="row">
             <!-- display time column -->
-            <div class="col-2">
-                <p class="time">4 PM</p>
-            </div>
+
+            <p class="time col-2">4 PM</p>
+
             <!-- form input -->
-            <div class="col-8">
-                <div class="form-group">
-                    <input type="text" class="form-control" id="formGroupExampleInput">
-                </div>
-            </div>
+            <textarea class="col-8">
+
+            </textarea>
             <!-- save button -->
-            <div class="col-2">
-                <button type="submit" class="btn btn-primary mb-2">Save</button>
-            </div>
+
+            <button class="btn btn-primary mb-2 col-2 save-button">Save</button>
+
         </div>
-        <hr>
-        <div class="row">
+        <div id="time-17" class="row">
             <!-- display time column -->
-            <div class="col-2">
-                <p class="time">5 PM</p>
-            </div>
+
+            <p class="time col-2">5 PM</p>
+
             <!-- form input -->
-            <div class="col-8">
-                <div class="form-group">
-                    <input type="text" class="form-control" id="formGroupExampleInput">
-                </div>
-            </div>
+            <textarea class="col-8">
+
+            </textarea>
             <!-- save button -->
-            <div class="col-2">
-                <button type="submit" class="btn btn-primary mb-2">Save</button>
-            </div>
+
+            <button class="btn btn-primary mb-2 col-2 save-button">Save</button>
+
         </div>
-        <hr>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/loacle/af.min.js"></script>
-        <script src="assets/javascript/main.js"></script>
+
+
+
+      
+
+
 
 </body>
 
