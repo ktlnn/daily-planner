@@ -1,9 +1,10 @@
 $(document).ready(function(){
-    
-    var currentDate = moment().format("MMM Do");
+    var moment = require('moment');
+    var currentDate = moment().format('MMMM Do YYYY, h:mm:ss a');
     var currentHour = moment().format("h");
+    $("#currentDay").text(currentDate);
     
-    //localStorage.getItem(key);
+    
 
    $(".save-button").click(function(){
        console.log(this);
