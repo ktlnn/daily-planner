@@ -14,4 +14,4 @@
 https://ktlnn.github.io/daily-planner/ 
 
 ## Project Screenshot
-![daily-planner-screenshot]()
+![daily-planner-screenshot](assets/images/daily-planner-screenshot.png)
